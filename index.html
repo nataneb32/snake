@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <title>Snake</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+
+    #menu {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      background: black;
+      position: fixed;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+  </style>
+</head>
+
+<body
+  style="background: black;display: flex;flex-direction: column;align-items: center;justify-content: center; width: 100vw; height: 100vh;">
+  <h1 id="fps"></h1>
+  <div id="menu">
+      <h1>SNAKE</h1>
+      <p>PRESS TO START</p>
+  </div>
+  <canvas width="820" height="620" id="canvas"></canvas>
+  <script src="./snake.js"></script>
+</body>
+
+</html>
